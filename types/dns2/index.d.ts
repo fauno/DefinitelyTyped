@@ -80,6 +80,7 @@ declare namespace DNS {
         address?: string;
         domain?: string;
         data?: string;
+        ns?: string;
     }
 
     interface UdpDnsServerOptions {
