@@ -68,6 +68,8 @@ declare namespace DNS {
 
     interface DnsResponse {
         answers: DnsAnswer[];
+        authorities: DnsAnswer[];
+        additionals: DnsAnswer[];
     }
 
     interface DnsAnswer {
